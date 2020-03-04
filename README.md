@@ -815,8 +815,6 @@ Delete Product
 
 That's it. Happy Coding :)
 
-Hope this blog helps to understand how to use a GraphQL in laravel application.
-
 
 
 
