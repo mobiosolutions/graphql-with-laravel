@@ -179,9 +179,6 @@ Get User
 
 ![picture](img/user.png)
 
-Get User's product
-
-![picture](img/userProduct.png)
 
 That's it. Happy Coding :)
 
