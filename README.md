@@ -29,20 +29,22 @@ Apps can use types to avoid writing manual parsing code.
 
 GraphQL APIs give apps continuous access to new features and encourage cleaner, more maintainable server code.
 
-Write GraphQL APIs that leverage your existing data and code with GrapWe are going to implement GraphQL to our laravel App. let's follow the below steps.hQL engines available in many languages.
+Write GraphQL APIs that leverage your existing data and code with GraphQL engines available in many languages.
 
 You provide functions for each field in the type system, and GraphQL calls them with optimal concurrency.
 
-#### **How to implement GraphQL**
+**Installation and use**
 
-Follow the steps for implement GraphQL in Laravel
+    $ git clone https://github.com/mobiosolutions/graphql-with-laravel.git
+    
+    $ cp .env.example .env
+    
+You need to update .env file according to database, username and password.
 
-**create one laravel project.**
-
-    composer create-project --prefer-dist laravel/laravel graphql-with-laravel
-
-To support GraphQL in the application, we need to install a library `rebing/graphql-laravel` that allows us to define schemas and queries in a simple way.
-
+    $ composer install
+    
+    $ php artisan migrate
+    
 **Testing the API with GraphQL**
 
 For the testing in graphql, we need to download graphql and install it to our system. you can download it from here https://www.electronjs.org/apps/graphiql
